@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-hub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ArcGIS Hub — open government geospatial data (search + Feature Service query).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-hub": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-hub"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-hub"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-hub.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-94b4eeb8070311eb012dc55df4a3962188aca68c9cd1cc9ddf96e897460ffe25",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-hub",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "ArcGIS Hub — open government geospatial data (search + Feature Service query).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-489dbb433813a020a139a11f6ef8567a0e2856356e9041512aa987681d61e0f7",
-    "sourceCommit": "54bf7d1c06a0775508a65d0c388dd10ba75174c3"
+    "sourceHash": "v1-c36119d29afaaaca7d3d807138ab92da0bdde2700053ddd3c8fbcbf4f7fe70fb",
+    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
   }
 }
